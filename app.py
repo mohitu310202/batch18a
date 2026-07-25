@@ -70,9 +70,9 @@ def about():
     return 'this is about section'
 
 
-# @app.route('/contact')
-# def contact():
-#     return "This is contact"
+@app.route('/contact')
+def contact():
+    return "This is contact"
 
 @app.route('/contact', methods=["GET","POST"])
 def contact():
