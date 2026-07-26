@@ -78,5 +78,12 @@ def contact():
 def contact():
     return "This is contact"
 
+
+print("hello mohit")
+
+print("hello world")
+
+print("Dey")
+
 if __name__=="__main__":
       app.run(debug=True, port=5000)
